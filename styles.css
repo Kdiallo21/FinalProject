@@ -1,0 +1,88 @@
+html {
+    background-color: rgb(6, 172, 102);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+  
+header {
+    text-align: center;
+    background-color:green;
+    color: #fff;
+    padding: 1rem 0;
+}
+  
+h1 {
+    margin: 0;
+}
+  
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+  
+.about-me {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+  
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #333;
+}
+  
+.links {
+    max-width: 400px;
+}
+  
+.links h2 {
+    margin: 0 0 10px;
+}
+  
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.links li {
+    margin: 10px 0;
+}
+  
+.links a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+  
+.links a:hover {
+    text-decoration: underline;
+}
+  
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: green;
+    color: #fff;
+}
+  
+table {
+    width: 600px;
+    height: 250px;
+    background-color: green;
+    text-align: center;
+}
+table ul {
+    text-decoration: none;
+    text-align: left;
+}
